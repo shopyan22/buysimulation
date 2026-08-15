@@ -155,12 +155,12 @@
         <h2>📈 Trading Simulator</h2>
         
         <div class="form-group">
-            <label for="tradeAmount">Jumlah Amount (Modal / Entry Value)</label>
+            <label for="tradeAmount">Amount (Modal)</label>
             <input type="number" id="tradeAmount" step="any" placeholder="Contoh: 0.6 atau 100">
         </div>
 
         <div class="form-group">
-            <label for="percentage">Target / Perubahan (%)</label>
+            <label for="percentage">Target Profit / Loss (%)</label>
             <input type="number" id="percentage" step="any" placeholder="Contoh: 20 (gunakan -20 untuk Rugi)">
         </div>
 
@@ -172,11 +172,11 @@
         <!-- Output Simulasi -->
         <div id="simulationResult" class="sim-results" style="display: none;">
             <div class="sim-row">
-                <span>Nilai Perubahan:</span>
+                <span>Total Profit:</span>
                 <span id="resValueChange" style="font-weight: bold;">-</span>
             </div>
             <div class="sim-row">
-                <span>Total Akhir:</span>
+                <span>Total Amount:</span>
                 <span id="resTotalResult">-</span>
             </div>
         </div>
